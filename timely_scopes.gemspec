@@ -1,4 +1,4 @@
-$:.push File.expand_path("lib", __dir__)
+$LOAD_PATH.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
 require "timely_scopes/version"
@@ -9,19 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = TimelyScopes::VERSION
   spec.authors     = ["Alex Cruice"]
   spec.email       = ["alex.cruice@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of TimelyScopes."
-  spec.description = "TODO: Description of TimelyScopes."
+  spec.homepage    = "https://github.com/alexcruice/timely_scopes"
+  spec.summary     = "A Rails plugin to add handy, time-based scopes"
   spec.license     = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
