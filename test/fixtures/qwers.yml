@@ -1,0 +1,12 @@
+---
+one:
+  dated_on: 2019-10-10
+  datetimed_at: 2019-10-13 00:00:00
+
+two:
+  dated_on: 2019-10-11
+  datetimed_at: 2019-10-13 00:00:01
+
+three:
+  dated_on: 2019-10-12
+  datetimed_at: 2019-10-13 00:00:02
