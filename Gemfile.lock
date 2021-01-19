@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     timely_scopes (0.1.0)
-      rails (~> 6.0.0)
+      rails (>= 6.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -140,4 +140,4 @@ DEPENDENCIES
   timely_scopes!
 
 BUNDLED WITH
-   1.17.3
+   2.1.4
